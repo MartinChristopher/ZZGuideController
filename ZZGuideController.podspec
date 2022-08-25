@@ -25,9 +25,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ZZGuideController/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZZGuideController' => ['ZZGuideController/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'ZZGuideController' => ['ZZGuideController/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

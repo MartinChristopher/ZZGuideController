@@ -20,5 +20,10 @@
   },
   "swift_versions": "5.0",
   "source_files": "ZZGuideController/Classes/**/*",
+  "resource_bundles": {
+    "ZZGuideController": [
+      "ZZGuideController/Assets/*.png"
+    ]
+  },
   "swift_version": "5.0"
 }

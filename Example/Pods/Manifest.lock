@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZZGuideController: dba125e46c6ea21ea55aebaa8c004a59785a519e
+  ZZGuideController: f31a166e5f64c2186cfd57a6b757b664b1f17eab
 
 PODFILE CHECKSUM: 22c582d13adbb5f200ebfe5b247b982cd6bc3e33
 
