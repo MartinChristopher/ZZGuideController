@@ -11,15 +11,15 @@
 		20FF1DF987F147C8255CD3A8C43D8764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3CD1F5618C8A1653B4C7D1046558FF20 /* Pods-ZZGuideController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A56F680EB01F7ECBBE3463A9DA1F05B2 /* Pods-ZZGuideController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FA54E17031CEC00EB4F194278985006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		68630B4386D5D5942AA3B5BFDF4D82FD /* ZZGuideDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475B1207E756659847606ABF3F3FD81D /* ZZGuideDataManager.swift */; };
-		79DF156D1F9055A112BF46D6E8DD8AF0 /* ZZGuideItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2BFF6293B35A2914746F6558A32EA /* ZZGuideItem.swift */; };
-		7CF6EB364BA06AB8026FB3309BEB75B6 /* ZZGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADE86BDC382E49DD067164DF4C2830 /* ZZGuideController.swift */; };
+		68630B4386D5D5942AA3B5BFDF4D82FD /* ZZGuideDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C538B9E4CD0BB642E38BBF44C2F7952F /* ZZGuideDataManager.swift */; };
+		79DF156D1F9055A112BF46D6E8DD8AF0 /* ZZGuideItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F01283487E89EA0C76056AC57D27EDC /* ZZGuideItem.swift */; };
+		7CF6EB364BA06AB8026FB3309BEB75B6 /* ZZGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225237137B01DD21E83BD88951A05D61 /* ZZGuideController.swift */; };
 		8211282808653285CC59B20057C1B756 /* Pods-ZZGuideController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 787BC74A5C61ED9F882DB788A66592D2 /* Pods-ZZGuideController_Example-dummy.m */; };
 		8BC4380F281A989E8A6B8A89445C904C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AE3B0F189FAD747C7C1FA4AB595EAE5A /* ZZGuideController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED38FCAC88A3B4C03A779BA5A7F0507A /* ZZGuideController-dummy.m */; };
-		B31234F1C78ED490679B86CABD94BB8F /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50D41776AD337004B8A44E4895492526 /* Resource.bundle */; };
-		CE0A8493575F963AD8412552DCE9B930 /* ZZGuideController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1D31688896830108D102BD892B8967 /* ZZGuideController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE3B0F189FAD747C7C1FA4AB595EAE5A /* ZZGuideController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC4CD89D65A5361C432FA8FA6614AC3 /* ZZGuideController-dummy.m */; };
+		CE0A8493575F963AD8412552DCE9B930 /* ZZGuideController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9501E3FEA17AE3E995BFA71056D65D24 /* ZZGuideController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4DE727F351FB42900175A5318C233E4 /* Pods-ZZGuideController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9396DFD6BAA182D9568615D67AAC7A0 /* Pods-ZZGuideController_Tests-dummy.m */; };
+		F8AFDCE14E83F204096BD08A737153BC /* Images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9F01E0D981D4705E8503DFEE9D4B1C1 /* Images.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,42 +40,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F1489B77D807C461A8738CD5D4261B0 /* ZZGuideController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZGuideController.debug.xcconfig; sourceTree = "<group>"; };
+		1DC4CD89D65A5361C432FA8FA6614AC3 /* ZZGuideController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZGuideController-dummy.m"; sourceTree = "<group>"; };
+		1F01283487E89EA0C76056AC57D27EDC /* ZZGuideItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZZGuideItem.swift; path = ZZGuideController/ZZGuideItem.swift; sourceTree = "<group>"; };
+		213CBAB5547EF1C1AD91FFFA9073925F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		225237137B01DD21E83BD88951A05D61 /* ZZGuideController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZZGuideController.swift; path = ZZGuideController/ZZGuideController.swift; sourceTree = "<group>"; };
+		22ACA64255F947C704D92C9046135177 /* ZZGuideController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZGuideController.release.xcconfig; sourceTree = "<group>"; };
+		26D55B6F0EBA783FB761C1639C4EFB46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3801BC4E35346D4EE85EF99BC3165642 /* Pods-ZZGuideController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZGuideController_Example-Info.plist"; sourceTree = "<group>"; };
 		3C2B296AA6276916B0E82E7563340531 /* Pods-ZZGuideController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZGuideController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3C39946831E88756D628B9883450B884 /* Pods-ZZGuideController_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZZGuideController_Example"; path = Pods_ZZGuideController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A4A14127DEFD449C021F608C6D6A5A /* ZZGuideController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZZGuideController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		457326CFD43B77F1D7287D2007D26AF5 /* Pods-ZZGuideController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZGuideController_Tests.modulemap"; sourceTree = "<group>"; };
-		475B1207E756659847606ABF3F3FD81D /* ZZGuideDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZZGuideDataManager.swift; path = ZZGuideController/ZZGuideDataManager.swift; sourceTree = "<group>"; };
 		4E6731FB8602C2020C9985890EF37329 /* Pods-ZZGuideController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZGuideController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		50D41776AD337004B8A44E4895492526 /* Resource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Resource.bundle; path = ZZGuideController/Resource.bundle; sourceTree = "<group>"; };
 		6EF9B531DB8C12DB8DCED197B7665272 /* Pods-ZZGuideController_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZZGuideController_Tests"; path = Pods_ZZGuideController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B8BEC02F0E8AC68E7516B37F7143F6 /* Pods-ZZGuideController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZZGuideController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		787BC74A5C61ED9F882DB788A66592D2 /* Pods-ZZGuideController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZGuideController_Example-dummy.m"; sourceTree = "<group>"; };
 		92CE493263FA1A5527E0C846F6518BFB /* Pods-ZZGuideController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZGuideController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9A1D31688896830108D102BD892B8967 /* ZZGuideController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZGuideController-umbrella.h"; sourceTree = "<group>"; };
+		9501E3FEA17AE3E995BFA71056D65D24 /* ZZGuideController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZGuideController-umbrella.h"; sourceTree = "<group>"; };
 		9AB2ED160339936A9824D8070BEC464E /* Pods-ZZGuideController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZZGuideController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A18E0BA60111135560D2E29BD9563DFA /* ZZGuideController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZGuideController.release.xcconfig; sourceTree = "<group>"; };
 		A56F680EB01F7ECBBE3463A9DA1F05B2 /* Pods-ZZGuideController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZGuideController_Example-umbrella.h"; sourceTree = "<group>"; };
-		AA05981E9AD353C9BC851F26DC072088 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AB4D93046FE8EFE38C3FD57BB9E29CF1 /* Pods-ZZGuideController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZGuideController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B55432152C3156D4063E4524853D57AA /* ZZGuideController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZZGuideController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B697351DD18AAF394B15BBA1DC00E146 /* Pods-ZZGuideController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZZGuideController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B83B63F87D570FC5D2176DABC5741390 /* ZZGuideController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZZGuideController-Info.plist"; sourceTree = "<group>"; };
+		B9AEE4916650D28FEC3C6CF14B25B39E /* ZZGuideController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZGuideController-prefix.pch"; sourceTree = "<group>"; };
 		BB272DBDA3A301BBE4A202E0967F9523 /* Pods-ZZGuideController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZGuideController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BB9DBA7AA9133FB674B1D39BD330610C /* ZZGuideController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZZGuideController.modulemap; sourceTree = "<group>"; };
 		BCC243F2B34EE3A40BD997A3748BADD7 /* ZZGuideController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZZGuideController; path = ZZGuideController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C87E5DD44071053C06788D059458D593 /* ZZGuideController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZZGuideController-prefix.pch"; sourceTree = "<group>"; };
-		CEADE86BDC382E49DD067164DF4C2830 /* ZZGuideController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZZGuideController.swift; path = ZZGuideController/ZZGuideController.swift; sourceTree = "<group>"; };
+		C538B9E4CD0BB642E38BBF44C2F7952F /* ZZGuideDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZZGuideDataManager.swift; path = ZZGuideController/ZZGuideDataManager.swift; sourceTree = "<group>"; };
 		D42869EFB0FA2F12DA53AA3FE94CA496 /* Pods-ZZGuideController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZZGuideController_Example.modulemap"; sourceTree = "<group>"; };
 		D9396DFD6BAA182D9568615D67AAC7A0 /* Pods-ZZGuideController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZZGuideController_Tests-dummy.m"; sourceTree = "<group>"; };
+		DD79D8DAC1C606BA2EA110EE66F75216 /* ZZGuideController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZZGuideController.debug.xcconfig; sourceTree = "<group>"; };
+		DE43FD738819B4C8072EC12BD7C09506 /* ZZGuideController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZZGuideController-Info.plist"; sourceTree = "<group>"; };
 		E1B2905C8E6F73C86FB1A67F4CBE991A /* Pods-ZZGuideController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZGuideController_Tests-Info.plist"; sourceTree = "<group>"; };
-		E5889BFABC8DB4DA56228B27AEE2BCBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E7DB8B3EC0512E0F7FCA150413108D11 /* ZZGuideController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZZGuideController.modulemap; sourceTree = "<group>"; };
+		E9F01E0D981D4705E8503DFEE9D4B1C1 /* Images.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Images.bundle; path = ZZGuideController/Images.bundle; sourceTree = "<group>"; };
 		EB30AA5CD64206058C4EF746F66C94A3 /* Pods-ZZGuideController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZZGuideController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED38FCAC88A3B4C03A779BA5A7F0507A /* ZZGuideController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZZGuideController-dummy.m"; sourceTree = "<group>"; };
 		F0A2C47FF51DF59AD0D59B5F05EC1CB5 /* Pods-ZZGuideController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZZGuideController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FFF2BFF6293B35A2914746F6558A32EA /* ZZGuideItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZZGuideItem.swift; path = ZZGuideController/ZZGuideItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +122,16 @@
 			path = "Target Support Files/Pods-ZZGuideController_Tests";
 			sourceTree = "<group>";
 		};
+		0265C4972BF0C9A63C299C22D42BF86B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				213CBAB5547EF1C1AD91FFFA9073925F /* LICENSE */,
+				26D55B6F0EBA783FB761C1639C4EFB46 /* README.md */,
+				41A4A14127DEFD449C021F608C6D6A5A /* ZZGuideController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		0721AB7E5CAA40583801128FDF9602A1 /* Pods-ZZGuideController_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,14 +149,19 @@
 			path = "Target Support Files/Pods-ZZGuideController_Example";
 			sourceTree = "<group>";
 		};
-		3AE5AB481265657DACCD6B6AEB432ED2 /* Pod */ = {
+		3856712EA959D004ECC984BE2E89C74C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA05981E9AD353C9BC851F26DC072088 /* LICENSE */,
-				E5889BFABC8DB4DA56228B27AEE2BCBE /* README.md */,
-				B55432152C3156D4063E4524853D57AA /* ZZGuideController.podspec */,
+				E7DB8B3EC0512E0F7FCA150413108D11 /* ZZGuideController.modulemap */,
+				1DC4CD89D65A5361C432FA8FA6614AC3 /* ZZGuideController-dummy.m */,
+				DE43FD738819B4C8072EC12BD7C09506 /* ZZGuideController-Info.plist */,
+				B9AEE4916650D28FEC3C6CF14B25B39E /* ZZGuideController-prefix.pch */,
+				9501E3FEA17AE3E995BFA71056D65D24 /* ZZGuideController-umbrella.h */,
+				DD79D8DAC1C606BA2EA110EE66F75216 /* ZZGuideController.debug.xcconfig */,
+				22ACA64255F947C704D92C9046135177 /* ZZGuideController.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZZGuideController";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -157,30 +172,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6C4F602E0D7B5A4CAED7E4B67916CD49 /* Support Files */ = {
+		648CEF6F8CFF22E357C168D18A43DD21 /* ZZGuideController */ = {
 			isa = PBXGroup;
 			children = (
-				BB9DBA7AA9133FB674B1D39BD330610C /* ZZGuideController.modulemap */,
-				ED38FCAC88A3B4C03A779BA5A7F0507A /* ZZGuideController-dummy.m */,
-				B83B63F87D570FC5D2176DABC5741390 /* ZZGuideController-Info.plist */,
-				C87E5DD44071053C06788D059458D593 /* ZZGuideController-prefix.pch */,
-				9A1D31688896830108D102BD892B8967 /* ZZGuideController-umbrella.h */,
-				1F1489B77D807C461A8738CD5D4261B0 /* ZZGuideController.debug.xcconfig */,
-				A18E0BA60111135560D2E29BD9563DFA /* ZZGuideController.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZZGuideController";
-			sourceTree = "<group>";
-		};
-		6FE495890DD5E2EB55974A7893E1E446 /* ZZGuideController */ = {
-			isa = PBXGroup;
-			children = (
-				50D41776AD337004B8A44E4895492526 /* Resource.bundle */,
-				CEADE86BDC382E49DD067164DF4C2830 /* ZZGuideController.swift */,
-				475B1207E756659847606ABF3F3FD81D /* ZZGuideDataManager.swift */,
-				FFF2BFF6293B35A2914746F6558A32EA /* ZZGuideItem.swift */,
-				3AE5AB481265657DACCD6B6AEB432ED2 /* Pod */,
-				6C4F602E0D7B5A4CAED7E4B67916CD49 /* Support Files */,
+				E9F01E0D981D4705E8503DFEE9D4B1C1 /* Images.bundle */,
+				225237137B01DD21E83BD88951A05D61 /* ZZGuideController.swift */,
+				C538B9E4CD0BB642E38BBF44C2F7952F /* ZZGuideDataManager.swift */,
+				1F01283487E89EA0C76056AC57D27EDC /* ZZGuideItem.swift */,
+				0265C4972BF0C9A63C299C22D42BF86B /* Pod */,
+				3856712EA959D004ECC984BE2E89C74C /* Support Files */,
 			);
 			name = ZZGuideController;
 			path = ../..;
@@ -227,7 +227,7 @@
 		D9959F39B9F300EE25C1E1CAD5449D58 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6FE495890DD5E2EB55974A7893E1E446 /* ZZGuideController */,
+				648CEF6F8CFF22E357C168D18A43DD21 /* ZZGuideController */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -269,7 +269,7 @@
 				BCC7038FDF72077F25035E8EC348347C /* Headers */,
 				1FA0C460951E8F0E89354BCD6C08AB2B /* Sources */,
 				C7A0943A9555C7AA0CE0FE24F430A541 /* Frameworks */,
-				273B21A9623CBFF3A094BF6347500440 /* Resources */,
+				BC8C50820FBB8328802A09A56178BF0D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -355,18 +355,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		273B21A9623CBFF3A094BF6347500440 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B31234F1C78ED490679B86CABD94BB8F /* Resource.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B15DBBD762A959AF345916B2EE85546B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8C50820FBB8328802A09A56178BF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AFDCE14E83F204096BD08A737153BC /* Images.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +454,7 @@
 		};
 		24B550FE1C27207A992FB4F251361656 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F1489B77D807C461A8738CD5D4261B0 /* ZZGuideController.debug.xcconfig */;
+			baseConfigurationReference = DD79D8DAC1C606BA2EA110EE66F75216 /* ZZGuideController.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -484,7 +484,7 @@
 		};
 		7C3A55DCFDC7EAA0871BC21C0D02531B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A18E0BA60111135560D2E29BD9563DFA /* ZZGuideController.release.xcconfig */;
+			baseConfigurationReference = 22ACA64255F947C704D92C9046135177 /* ZZGuideController.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

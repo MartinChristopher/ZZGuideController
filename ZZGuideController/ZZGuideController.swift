@@ -177,7 +177,7 @@ public class ZZGuideController: UIViewController {
         } else if let image = arrowImage {
             arrowImageView.image = image
         } else {
-            arrowImageView.image = UIImage(named: "guide_arrow", in: Bundle(for: ZZGuideController.self), compatibleWith: nil)
+            arrowImageView.image = BundleImage("arrow")
         }
         arrowImageView.image = arrowImageView.image?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         arrowImageView.tintColor = arrowColor
@@ -311,6 +311,17 @@ public class ZZGuideController: UIViewController {
         } else {
             dismiss(animated: true, completion: completion)
         }
+    }
+    
+    private func BundleImage(_ name: String) -> UIImage? {
+        let bundle = Bundle(for: ZZGuideController.self)
+        guard let url = bundle.url(forResource: "Images", withExtension: "bundle")?.appendingPathComponent(name).appendingPathExtension("png") else {
+            return nil
+        }
+        guard let image = UIImage(contentsOfFile: url.path) else {
+            return nil
+        }
+        return image
     }
     
 }
