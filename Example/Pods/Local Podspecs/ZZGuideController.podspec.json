@@ -19,11 +19,7 @@
     "ios": "9.0"
   },
   "swift_versions": "5.0",
-  "source_files": "ZZGuideController/Classes/**/*",
-  "resource_bundles": {
-    "ZZGuideController": [
-      "ZZGuideController/Assets/*.png"
-    ]
-  },
+  "source_files": "ZZGuideController/**/*.{swift}",
+  "resources": "ZZGuideController/**/*.{bundle}",
   "swift_version": "5.0"
 }
