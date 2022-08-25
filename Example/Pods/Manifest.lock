@@ -1,0 +1,16 @@
+PODS:
+  - ZZGuideController (0.0.1)
+
+DEPENDENCIES:
+  - ZZGuideController (from `../`)
+
+EXTERNAL SOURCES:
+  ZZGuideController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZZGuideController: dba125e46c6ea21ea55aebaa8c004a59785a519e
+
+PODFILE CHECKSUM: 22c582d13adbb5f200ebfe5b247b982cd6bc3e33
+
+COCOAPODS: 1.11.3

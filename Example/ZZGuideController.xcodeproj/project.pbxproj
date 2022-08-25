@@ -30,10 +30,10 @@
 /* Begin PBXFileReference section */
 		0D50DB21BC41BBF8617204CD /* Pods_ZZGuideController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZGuideController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACAE80A92FBEF8B93551FD4 /* Pods_ZZGuideController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZZGuideController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B0259A3B17E8D3082B36710 /* ZZGuideController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZZGuideController.podspec; path = ../ZZGuideController.podspec; sourceTree = "<group>"; };
-		5A01FA5377EF6086A54285CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3B0259A3B17E8D3082B36710 /* ZZGuideController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZZGuideController.podspec; path = ../ZZGuideController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5A01FA5377EF6086A54285CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5CD6A7A77ABF334E5CB0E231 /* Pods-ZZGuideController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZGuideController_Example.release.xcconfig"; path = "Target Support Files/Pods-ZZGuideController_Example/Pods-ZZGuideController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5F4D9972E59789125B2E16FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5F4D9972E59789125B2E16FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ZZGuideController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZGuideController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				C0690D6A62DF28C98BA8383B /* Pods-ZZGuideController_Tests.debug.xcconfig */,
 				76CF0CEBFBFF255AA27A96C9 /* Pods-ZZGuideController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				7451B4232F13CBF23F4E007B /* [CP] Embed Pods Frameworks */,
+				B31D8E49AA2A0C574854A5F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -284,7 +284,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7451B4232F13CBF23F4E007B /* [CP] Embed Pods Frameworks */ = {
+		B31D8E49AA2A0C574854A5F7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

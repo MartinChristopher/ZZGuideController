@@ -1,0 +1,6 @@
+framework module ZZGuideController {
+  umbrella header "ZZGuideController-umbrella.h"
+
+  export *
+  module * { export * }
+}
