@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZZGuideController_Example' do
+  pod 'ZZGuideController', :path => '../'
+
+  target 'ZZGuideController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
